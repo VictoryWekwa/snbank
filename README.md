@@ -8,6 +8,6 @@ i used 1,2 and 3 to accept the user's input.
 if the user inputs 1, the fill in their details and i show them thir account number which i generated with the ramdom and randrange function.
 If user selects 2, they input their account details and the program print thir account details which was saved in the customer.txt file using the append method of the file system.
 the user is presented with option again and if they enter 3, the program end. i used the exit function to terminate the program.
-i created a user.sessionfile on successful login using the write method, that is open('user_SessionFile.txt','w') on the user enter option 3, my session file is deleted permately. i used the os.unlink function to delete my session file.
+i created a user.sessionfile on successful login using the write method, that is open('user_SessionFile.txt','w') on the user enter option 3, my session file is deleted permanently. I used the os.unlink function to delete my session file.
 
 the last line of my program is covers if the user decides to enter close app, which prints goodbye and end.
